@@ -1,5 +1,5 @@
 # FinOps Cost-to-Action Pipeline
-## Architecture
+## Architecture Overview
 
 ![FinOps Architecture](assets/finops-architecture-diagram.png)
 > Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
