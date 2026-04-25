@@ -44,5 +44,3 @@ python3 src/generate_jira_payload.py
   "description": "Stable baseline detected. Validate workload before commitment.",
   "labels": ["finops", "commitment"]
 }
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/07b2d28d-77f4-4fdd-aaba-e89cf19ce0e7" />
