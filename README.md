@@ -1,16 +1,16 @@
 # FinOps Cost-to-Action Pipeline
-## Architecture Overview
 
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
+> Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
+
 ### What this shows
  
+- Cost visibility alone doesn’t drive outcomes, action does
 - Engineers validate workload behavior before financial commitments  
 - FinOps decisions are based on real usage patterns, not assumptions  
 - A feedback loop ensures continuous alignment between cost and architecture
 - > A closed-loop FinOps system that transforms AWS cost signals into engineering action and feeds validation back into commitment strategy.
-
-> Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
 
 This project demonstrates how to turn AWS Cost and Usage Report (CUR) data into actionable engineering workflows.
 
@@ -29,7 +29,7 @@ This system bridges that gap by:
 - Preventing overcommitment to unstable workloads
 - Ensuring inefficiencies are fixed before commitments are made
 
-## Key Insight
+## Operating Principle
 
 Engineers don’t purchase Savings Plans, but they control the workload behavior that makes commitments safe.
 
