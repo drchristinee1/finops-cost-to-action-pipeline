@@ -1,7 +1,16 @@
 # FinOps Cost-to-Action Pipeline
 ## Architecture Overview
 
-![FinOps Architecture](assets/finops-architecture-diagram.png)
+![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
+
+### What this shows
+
+- Cost data is not the endpoint — it’s the trigger for action  
+- Engineers validate workload behavior before financial commitments  
+- FinOps decisions are based on real usage patterns, not assumptions  
+- A feedback loop ensures continuous alignment between cost and architecture
+- > A closed-loop FinOps system that transforms AWS cost signals into engineering action and feeds validation back into commitment strategy.
+
 > Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
 
 This project demonstrates how to turn AWS Cost and Usage Report (CUR) data into actionable engineering workflows.
