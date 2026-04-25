@@ -1,5 +1,5 @@
 # FinOps Cost-to-Action Pipeline
-> Turning AWS billing data into engineering action—so FinOps decisions are based on real workload behavior, not assumptions.
+> Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
 
 This project demonstrates how to turn AWS Cost and Usage Report (CUR) data into actionable engineering workflows.
 
@@ -20,7 +20,7 @@ This system bridges that gap by:
 
 ## Key Insight
 
-Engineers don’t purchase Savings Plans—but they control the workload behavior that makes commitments safe.
+Engineers don’t purchase Savings Plans, but they control the workload behavior that makes commitments safe.
 
 ## Run the pipeline
 
