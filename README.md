@@ -1,4 +1,5 @@
 # FinOps Cost-to-Action Pipeline
+> Turning AWS billing data into engineering action—so FinOps decisions are based on real workload behavior, not assumptions.
 
 This project demonstrates how to turn AWS Cost and Usage Report (CUR) data into actionable engineering workflows.
 
@@ -6,7 +7,7 @@ Instead of stopping at cost visibility, this pipeline:
 - Ingests CUR data using Python
 - Classifies cost signals (baseline, growth, inefficiency)
 - Generates Jira-ready action items
-- Enables engineers to validate workload behavior before financial commitments (Savings Plans / RIs)
+- Enables engineers to validate workload stability and planned changes before FinOps commits to Savings Plans or Reserved Instances
 
 ## Why this matters
 
@@ -27,3 +28,19 @@ Engineers don’t purchase Savings Plans—but they control the workload behavio
 python3 src/ingest_cur.py
 python3 src/process_cost_signals.py
 python3 src/generate_jira_payload.py
+
+## What this demonstrates
+
+- FinOps as an operating system (not just reporting)
+- Translation of cost data into engineering workflows
+- Separation of baseline vs variable usage for commitment strategy
+- Prevention of overcommitment through workload validation loops
+
+## Example Output
+
+```json
+{
+  "summary": "SP/RI Recommendation: EC2 cost signal",
+  "description": "Stable baseline detected. Validate workload before commitment.",
+  "labels": ["finops", "commitment"]
+}
