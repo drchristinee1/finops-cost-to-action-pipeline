@@ -1,0 +1,38 @@
+[
+  {
+    "summary": "FinOps Action Required: EC2 cost signal",
+    "description": "Account ID: 123456789012\nService: EC2\nUsage Type: BoxUsage:m5.large\nCost: $120.5\nUsage Quantity: 100\nFinOps Signal: \u2705 Stable baseline - safe to commit\n\nRecommended Action: Review usage pattern and assign engineering owner.",
+    "labels": [
+      "finops",
+      "cost-action",
+      "ec2"
+    ]
+  },
+  {
+    "summary": "FinOps Action Required: EC2 cost signal",
+    "description": "Account ID: 123456789012\nService: EC2\nUsage Type: BoxUsage:m5.large\nCost: $118.2\nUsage Quantity: 98\nFinOps Signal: \u2705 Stable baseline - safe to commit\n\nRecommended Action: Review usage pattern and assign engineering owner.",
+    "labels": [
+      "finops",
+      "cost-action",
+      "ec2"
+    ]
+  },
+  {
+    "summary": "FinOps Action Required: Lambda cost signal",
+    "description": "Account ID: 123456789012\nService: Lambda\nUsage Type: Duration\nCost: $45.3\nUsage Quantity: 200000\nFinOps Signal: \u274c Possible inefficiency - investigate before committing\n\nRecommended Action: Review usage pattern and assign engineering owner.",
+    "labels": [
+      "finops",
+      "cost-action",
+      "lambda"
+    ]
+  },
+  {
+    "summary": "FinOps Action Required: EC2 cost signal",
+    "description": "Account ID: 123456789012\nService: EC2\nUsage Type: BoxUsage:c5.xlarge\nCost: $300.0\nUsage Quantity: 250\nFinOps Signal: \u26a0\ufe0f Growth-driven usage - partially commit\n\nRecommended Action: Review usage pattern and assign engineering owner.",
+    "labels": [
+      "finops",
+      "cost-action",
+      "ec2"
+    ]
+  }
+]

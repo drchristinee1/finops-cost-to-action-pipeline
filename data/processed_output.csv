@@ -1,0 +1,6 @@
+account_id,service,usage_type,cost,usage_quantity,finops_signal
+123456789012,EC2,BoxUsage:m5.large,120.5,100,✅ Stable baseline - safe to commit
+123456789012,EC2,BoxUsage:m5.large,118.2,98,✅ Stable baseline - safe to commit
+123456789012,Lambda,Duration,45.3,200000,❌ Possible inefficiency - investigate before committing
+123456789012,S3,TimedStorage-ByteHrs,30.1,500,Review
+123456789012,EC2,BoxUsage:c5.xlarge,300.0,250,⚠️ Growth-driven usage - partially commit

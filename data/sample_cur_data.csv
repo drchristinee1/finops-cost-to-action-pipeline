@@ -1,0 +1,6 @@
+account_id,service,usage_type,cost,usage_quantity
+123456789012,EC2,BoxUsage:m5.large,120.50,100
+123456789012,EC2,BoxUsage:m5.large,118.20,98
+123456789012,Lambda,Duration,45.30,200000
+123456789012,S3,TimedStorage-ByteHrs,30.10,500
+123456789012,EC2,BoxUsage:c5.xlarge,300.00,250
