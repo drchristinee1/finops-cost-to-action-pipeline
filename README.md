@@ -4,8 +4,7 @@
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
 ### What this shows
-
-- Cost data is not the endpoint — it’s the trigger for action  
+ 
 - Engineers validate workload behavior before financial commitments  
 - FinOps decisions are based on real usage patterns, not assumptions  
 - A feedback loop ensures continuous alignment between cost and architecture
