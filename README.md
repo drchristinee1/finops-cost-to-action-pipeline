@@ -3,7 +3,9 @@
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
 > Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
+Architectural Note
 
+The “Action Generation” stage represents operational workflow orchestration rather than simple ticket creation. Cost signals are translated into engineering ownership workflows with governance context, recommendations, and feedback-loop integration to support accountable infrastructure decision-making.
 ### What this shows
  
 - Cost visibility alone doesn’t drive outcomes, action does
