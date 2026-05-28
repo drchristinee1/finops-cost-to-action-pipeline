@@ -18,7 +18,6 @@ Instead of dashboards alone, the pipeline:
 
 **Core Principle:**
 Cost visibility does not drive outcomes—engineering action does.
-# FinOps Cost-to-Action Pipeline
 
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
@@ -68,6 +67,13 @@ python3 src/generate_jira_payload.py
 - Translation of cost data into engineering workflows
 - Separation of baseline vs variable usage for commitment strategy
 - Prevention of overcommitment through workload validation loops
+
+## Portfolio Context
+
+This project represents a workflow-native FinOps operating model focused on translating cloud cost visibility into accountable engineering execution through automation, ownership routing, and measurable optimization outcomes.
+
+**Technologies:** AWS CUR, Athena, Python, Jira, FinOps workflows
+
 
 ## Example Output
 
