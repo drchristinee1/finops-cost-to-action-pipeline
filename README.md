@@ -1,5 +1,25 @@
 # FinOps Cost-to-Action Pipeline
 
+Transforming AWS cost and usage signals into automated ownership, remediation workflows, and measurable FinOps outcomes.
+
+## Executive Summary
+
+Most FinOps programs stop at cost visibility.
+
+This project demonstrates a workflow-driven FinOps operating model that converts AWS Cost and Usage Report (CUR) data into engineering-ready action.
+
+Instead of dashboards alone, the pipeline:
+
+* Detects cost signals
+* Classifies workload behavior
+* Generates Jira-ready ownership workflows
+* Routes recommendations to engineering teams
+* Supports accountable and measurable optimization execution
+
+**Core Principle:**
+Cost visibility does not drive outcomes—engineering action does.
+# FinOps Cost-to-Action Pipeline
+
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
 > Turning AWS billing data into engineering action, so FinOps decisions are based on real workload behavior, not assumptions.
