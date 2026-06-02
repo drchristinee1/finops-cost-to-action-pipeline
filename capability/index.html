@@ -185,7 +185,54 @@ style="width:100%; border-radius:14px; margin-top:25px; box-shadow:0 10px 25px r
 AWS CUR → Signal Classification → Jira Workflow Generation → Engineering Validation → Feedback Loop
 </p>
 </div>
+<div class="section">
+<h2>Technical Components</h2>
 
+<div class="outcomes">
+
+<div class="card">
+<strong>Cost Source</strong><br>
+AWS CUR, Athena, Cost Explorer
+</div>
+
+<div class="card">
+<strong>Processing</strong><br>
+Python ingestion and transformation scripts
+</div>
+
+<div class="card">
+<strong>Signal Logic</strong><br>
+Baseline, growth, inefficiency classification
+</div>
+
+<div class="card">
+<strong>Workflow Layer</strong><br>
+Jira-ready payload generation
+</div>
+
+<div class="card">
+<strong>Execution Layer</strong><br>
+Engineering review, remediation, validation
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>Repository Artifacts</h2>
+
+<ul>
+<li><strong>ingest_cur.py</strong> — ingests and aggregates cloud cost data</li>
+<li><strong>process_cost_signals.py</strong> — classifies workload behavior and cost signals</li>
+<li><strong>generate_jira_payload.py</strong> — creates Jira-ready remediation payloads</li>
+<li><strong>Architecture diagram</strong> — shows the closed-loop FinOps workflow</li>
+<li><strong>README documentation</strong> — explains the operating model and implementation</li>
+</ul>
+
+<a class="button"
+href="https://github.com/drchristinee1/finops-cost-to-action-pipeline">
+Explore Repository
+</a>
 </div>
 </body>
 </html>
