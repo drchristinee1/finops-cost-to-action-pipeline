@@ -16,8 +16,26 @@ Instead of dashboards alone, the pipeline:
 * Routes recommendations to engineering teams
 * Supports accountable and measurable optimization execution
 
+* ## Business Problem
+
+Cloud cost visibility alone rarely produces optimization outcomes.
+
+Many organizations identify cost anomalies and savings opportunities but struggle to operationalize remediation due to fragmented ownership, weak workflow integration, and lack of execution accountability.
+
+This project demonstrates a workflow-native FinOps operating model that closes the gap between cloud cost insight and engineering action.
+
+## Business Outcomes
+
+This model helps organizations:
+
+- Reduce time between cost detection and remediation
+- Improve ownership accountability
+- Prevent premature commitment purchases
+- Improve FinOps-to-engineering coordination
+- Support measurable and auditable optimization execution
+
 **Core Principle:**
-Cost visibility does not drive outcomes—engineering action does.
+Cost visibility does not drive outcomes, engineering action does.
 
 ![FinOps Cost-to-Action Pipeline](assets/finops-architecture-diagram.png)
 
@@ -25,6 +43,38 @@ Cost visibility does not drive outcomes—engineering action does.
 Architectural Note
 
 The “Action Generation” stage represents operational workflow orchestration rather than simple ticket creation. Cost signals are translated into engineering ownership workflows with governance context, recommendations, and feedback-loop integration to support accountable infrastructure decision-making.
+
+## Workflow Logic
+
+This model follows a closed-loop FinOps workflow that converts cloud cost data into accountable engineering action.
+
+Rather than stopping at dashboards or anomaly visibility, the pipeline operationalizes cost signals through ownership, workflow generation, and execution feedback.
+
+Workflow sequence:
+
+1. Cost data ingestion  
+   AWS CUR and usage data are aggregated and prepared for analysis.
+
+2. Signal classification  
+   Cost behavior is evaluated and classified into patterns such as:
+   - Stable baseline
+   - Growth-driven usage
+   - Inefficiency or anomaly conditions
+
+3. Context generation  
+   Signals are enriched with recommendations, workload context, and metadata required for engineering decision-making.
+
+4. Workflow orchestration  
+   Jira-ready payloads are generated to establish ownership, remediation context, and execution pathways.
+
+5. Engineering validation and action  
+   Engineers review workload behavior, validate recommendations, and determine remediation or commitment actions.
+
+6. Feedback and continuous improvement  
+   Validation outcomes feed back into FinOps decision-making to improve future optimization and commitment strategies.
+
+This creates a workflow-native operating model where cloud cost intelligence progresses from visibility to measurable execution.
+
 ### What this shows
  
 - Cost visibility alone doesn’t drive outcomes, action does
