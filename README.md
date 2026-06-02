@@ -127,7 +127,7 @@ python3 src/generate_jira_payload.py
 
 ## Portfolio Context
 
-This project represents a workflow-native FinOps operating model focused on translating cloud cost visibility into accountable engineering action.
+This project represents a workflow-native FinOps operating model designed to translate cloud cost intelligence into accountable engineering execution through ownership, orchestration, and measurable action.
 
 **Technologies**
 
