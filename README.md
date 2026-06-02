@@ -116,42 +116,6 @@ The scripts below represent implementation components supporting the workflow-na
 python3 src/ingest_cur.py
 python3 src/process_cost_signals.py
 python3 src/generate_jira_payload.py
-
-## What this demonstrates
-
-- FinOps as an operating system (not just reporting)
-- Translation of cost data into engineering workflows
-- Separation of baseline vs variable usage for commitment strategy
-- Prevention of overcommitment through workload validation loops
-
-## Portfolio Context
-
-This project represents a workflow-native FinOps operating model focused on translating cloud cost visibility into accountable engineering execution through automation, ownership routing, and measurable optimization outcomes.
-
-**Technologies:** AWS CUR, Athena, Python, Jira, FinOps workflows
-
-
-## Example Output
-
-```json
-{
-  "summary": "SP/RI Recommendation: EC2 cost signal",
-  "description": "Stable baseline detected. Validate workload before commitment.",
-  "labels": ["finops", "commitment"]
-}
-
-## Technical Implementation
-
-This implementation demonstrates how cloud cost signals are translated into workflow-ready engineering actions using Python, CUR ingestion, signal classification, and Jira payload generation.
-
-The scripts below represent implementation components supporting the workflow-native FinOps operating model described above.
-
-## Run the Pipeline
-
-```bash
-python3 src/ingest_cur.py
-python3 src/process_cost_signals.py
-python3 src/generate_jira_payload.py
 ```
 
 ## What This Implementation Demonstrates
