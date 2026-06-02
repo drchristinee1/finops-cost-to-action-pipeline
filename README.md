@@ -77,7 +77,7 @@ This creates a workflow-native operating model where cloud cost intelligence pro
 
 ### What this shows
  
-- Cost visibility alone doesn’t drive outcomes, action does
+- Cost visibility alone doesn’t drive outcomes, engineering action does
 - Engineers validate workload behavior before financial commitments  
 - FinOps decisions are based on real usage patterns, not assumptions  
 - A feedback loop ensures continuous alignment between cost and architecture
