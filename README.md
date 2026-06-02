@@ -16,7 +16,7 @@ Instead of dashboards alone, the pipeline:
 * Routes recommendations to engineering teams
 * Supports accountable and measurable optimization execution
 
-* ## Business Problem
+## Business Problem
 
 Cloud cost visibility alone rarely produces optimization outcomes.
 
